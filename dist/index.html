@@ -18,9 +18,8 @@
     <section class="warm-reminder section-shell" aria-labelledby="reminder-title">
       <div class="reminder-heading"><span class="section-kicker">MIDTERM NOTICE / 期中考试</span><h2 id="reminder-title">温馨提示</h2><p>请先核对自己的考试安排，再制定复习计划。</p></div>
       <div class="reminder-content">
-        <p><strong>26 级新生的期中考试集中安排在 11 月 14 至 15 日。</strong>具体场次已通过教务系统及“安大微教务”微信公众号发布，请按时参加。</p>
-        <ul><li>如任课老师有特殊安排或调整，以任课老师通知为准。</li><li>免听课程的同学也需参加期中考试；无法参加者须提前办理期中考试免考申请。</li><li>尚未关注的同学，可在微信关注并绑定“安大微教务”公众号，方便查看考试安排。</li><li>请提前准备好考试用具和调频耳机，并核对各科考试要求。</li></ul>
-        <small>根据辅导员转发的提醒整理；具体日期与场次请以正式通知为准。</small>
+        <p><strong>期中考试集中安排在 11 月 14 至 15 日。</strong>请先核对自己的考试安排。</p>
+        <details class="reminder-details"><summary>查看考试注意事项</summary><div class="reminder-detail-body"><p>具体场次已通过教务系统及“安大微教务”微信公众号发布，请按时参加。</p><ul><li>如任课老师有特殊安排或调整，以任课老师通知为准。</li><li>免听课程的同学也需参加期中考试；无法参加者须提前办理期中考试免考申请。</li><li>尚未关注的同学，可在微信关注并绑定“安大微教务”公众号，方便查看考试安排。</li><li>请提前准备好考试用具和调频耳机，并核对各科考试要求。</li></ul><small>根据辅导员转发的提醒整理；具体日期与场次请以正式通知为准。</small></div></details>
       </div>
     </section>
     <section class="hero section-shell">
@@ -44,7 +43,7 @@
 
     <section id="idea" class="section-shell idea-section">
       <div class="section-heading"><div><span class="section-kicker">01 / 认知</span><h2>复习的关键，是让问题<br>尽早暴露。</h2></div><p>最容易耽误进度的不是不会，而是误以为自己会了。读懂讲解与独立作答之间，往往还差一次真正的检测。</p></div>
-      <div class="idea-grid">
+      <div class="idea-list">
         <article class="idea-card"><span class="card-index">A</span><h3>从输入转向输出</h3><p>看完一节后，先关掉资料，用自己的话解释概念，再做一道基础题。</p></article>
         <article class="idea-card"><span class="card-index">B</span><h3>让反馈具体到步骤</h3><p>让 AI 指出错在概念、条件、公式选择还是计算过程，而不只给出标准答案。</p></article>
         <article class="idea-card"><span class="card-index">C</span><h3>用复测确认掌握</h3><p>补完薄弱点，再换一道同类题独立完成。能迁移应用，才算形成理解。</p></article>
@@ -65,7 +64,7 @@
     <section id="practice" class="section-shell practice-section">
       <div class="section-heading"><div><span class="section-kicker">03 / 实践</span><h2>把 AI 用成复习助教</h2></div><p>提示词的重点不是“帮我做题”，而是“先问我、听我回答、指出错因、再考一次”。</p></div>
       <div class="practice-layout"><div class="practice-side"><div class="mini-label">跟着做一次</div><h3>选一个正在复习的知识点，按四步完成对话。</h3><ol><li>填入课程和章节，准备课程材料</li><li>复制提示词，请 AI 逐题提问</li><li>独立作答，让 AI 指出具体错因</li><li>补完后做一道变式题复测</li></ol><p>可以先从一节内容开始；涉及课程要求与答案时，请回到讲义和教材核对。</p></div>
-      <div class="prompt-card"><div class="prompt-top"><span><i></i> 可复制的复习提示词</span><button id="copyPrompt" type="button">复制提示词</button></div><pre id="promptText">你是我的课程复习助教。我正在复习【课程名】的【章节/知识点】，目标是理解核心概念并能独立完成基础题。
+      <div class="prompt-card"><div class="prompt-top"><span class="prompt-title"><strong><i></i> 可复制的复习提示词</strong><small>复制后替换【课程名】和【章节/知识点】</small></span><button id="copyPrompt" type="button">复制提示词</button></div><pre id="promptText">你是我的课程复习助教。我正在复习【课程名】的【章节/知识点】，目标是理解核心概念并能独立完成基础题。
 
 请先根据我提供的课程材料，逐次提出 3～5 个基础问题；一次只问一题，暂时不要给答案。等我回答后，判断我的思路在哪一步出现问题，并说明是概念、适用条件、公式选择还是计算错误。
 
