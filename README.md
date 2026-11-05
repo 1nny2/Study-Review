@@ -4,7 +4,7 @@
 
 项目公开地址：https://github.com/1nny2/Study-Review
 
-网页阅读地址：https://ai-review-anu-2026-eie1.clevermule20.chatgpt.site
+网页阅读地址：https://1nny2.github.io/Study-Review/
 
 2026-11-05 已发布第一版，公开地址返回 HTTP 200。
 
@@ -19,6 +19,8 @@
 2026-11-05 在结尾行动区加入简短祝福：“祝大家复习顺利，考试从容！”。
 
 2026-11-05 加入“参考资料与致谢”，列出 3 个 GitHub 项目及原始参考网页；署名明确李兰源整理了部分内容，倪诺越负责网页整理与编排。
+
+2026-11-05 将网页发布到 GitHub Pages，班级群分享地址改为 https://1nny2.github.io/Study-Review/ 。
 
 ## 查看
 
