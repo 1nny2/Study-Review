@@ -2,7 +2,9 @@
 
 供安徽大学 2026 级电子信息工程专业 1 班同学自主阅读的网页。参考“期末复习 AI 破局”页面的信息顺序，以清新学术风重新组织为“认知—方法—实践—资源”四段，内容已重新写作。
 
-公开地址：https://ai-review-anu-2026-eie1.clevermule20.chatgpt.site
+项目公开地址：https://github.com/1nny2/Study-Review
+
+网页阅读地址：https://ai-review-anu-2026-eie1.clevermule20.chatgpt.site
 
 2026-11-05 已发布第一版，公开地址返回 HTTP 200。
 
